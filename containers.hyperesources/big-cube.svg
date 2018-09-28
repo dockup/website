@@ -1,0 +1,14 @@
+<?xml version="1.0"?><svg width="640" height="480" xmlns="http://www.w3.org/2000/svg">
+ <metadata id="metadata7">image/svg+xml</metadata>
+ <g>
+  <title>Layer 1</title>
+  <g id="layer1">
+   <g id="g3000">
+    <path fill="#f9f9f9" d="m309,29.99999l-180.999985,88.644258l180.999985,88.644264l181,-88.644264l-181,-88.644258z" id="path2987"/>
+    <path fill="#ececec" id="path2989" d="m309,207.288513l0,221.610687l181,-88.644287l0,-221.610664l-181,88.644264z"/>
+    <path fill="#cccccc" d="m309,207.288513l0,221.610687l-180.999985,-88.644287l0,-221.610664l180.999985,88.644264z" id="path2991"/>
+    <path fill="none" stroke="#4d4d4d" stroke-width="1px" d="m309,30.113611l-180.999985,88.644262l0,221.610657l180.999985,88.644257l181,-88.644257l0,-221.610657l-181,-88.644262z" id="path2993"/>
+   </g>
+  </g>
+ </g>
+</svg>
