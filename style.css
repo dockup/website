@@ -3,7 +3,7 @@ body {
   margin: 0;
   font-family: 'Chivo', sans-serif;
   font-weight: 300;
-  font-size: 14px;
+  font-size: 16px;
   color: #4A4C50;
 }
 
@@ -19,7 +19,7 @@ a, a:hover {
   text-decoration: none;
 }
 
-a.contact-us {
+a.logo {
   border: 1px solid #5245E2;
   padding: 5px 12px;
   background: #fff;
@@ -53,15 +53,21 @@ header .product-jumbo {
   /* background-size: contain; */
 }
 
-.product-jumbo h2,
-.product-jumbo h3 {
+.product-jumbo h1 {
   color: #5245E2;
   margin-block-start: 5px;
   margin-block-end: 5px;
 }
 
+.product-jumbo h3 {
+  color: #5245E2;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+  font-weight: 100;
+}
+
 .product-jumbo .content .description {
-  width: 39%;
+  width: 85%;
   display: inline-block;
   line-height: 1.5;
 }
@@ -87,6 +93,7 @@ form input[type="email"] {
   padding: 10px 15px;
   outline: none;
   margin-right: 10px;
+  margin-bottom: 10px;
   border-radius: 3px;
   border: 1px solid #e9e9e9;
 }
@@ -123,7 +130,9 @@ section.middle-container {
 section.middle-container .card {
   display: inline-block;
   width: 375px;
-  text-align: center;
+  /*text-align: center;*/
+  margin-left: auto;
+  margin-right: auto;
 }
 
 section.middle-container .card p{
@@ -132,6 +141,17 @@ section.middle-container .card p{
 
 section.middle-container .card h3 {
   color: #5941A9;
+}
+
+.middle-container.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(375px, 1fr));
+  grid-gap: 2rem;
+  padding: 20px 0px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.5;
 }
 
 .features {
@@ -152,11 +172,8 @@ section.middle-container .card h3 {
 
 .features section.container .content {
   display: grid;
-  grid-template-columns: 275px 275px 275px;
-  grid-template-rows: 125px 150px;
-  grid-column-gap: 50px;
-  grid-row-gap: 80px;
-  justify-content: center;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 2rem;
   padding: 20px 0px;
   margin-top: 50px;
   margin-left: auto;
